@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(20, 1, 48) 100%, rgb(19, 0, 51) 70%);
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: white;
+    font-family: poppins;
+    position: relative;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(13, 0, 32);
+    padding: 50px;
+    border-radius: 10px;
+    transition: .1s ease-in;
+    width: 40vw;
+    height: 80vh;
+}
+
+h2{
+    font-size: 20px;
+}
+
+
+.emoji img{
+    position: absolute;
+    right: 600px;
+    top: 10px;
+    height: 36vh;
+    filter: drop-shadow(2px 2px 20px #fc5c0060) ;
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+}
+
+.emoji1 img{
+    position: absolute;
+    right:150px;
+    bottom: 20px;
+    height: 40vh;
+    filter: drop-shadow(2px 2px 20px hsla(207, 100%, 52%, 0.644)) ;
+    animation: float 2s ease-in-out infinite;
+}
+
+.button_vol{
+    background:rgb(121, 48, 230);
+    box-shadow: 2px 2px 20px rgba(170, 136, 197, 0.705) ;
+    color: white;
+    border: 2px solid transparent;
+    font-family: poppins;
+    padding: 15px;
+    border-radius: 25px;
+    Cursor: pointer;
+    margin-top: 65vh;
+    margin-left: -110vh;
+    height: 10vh;
+    transition: .2s ease-out;
+    font-size: 15px;
+    font-weight: 600;
+    width: 5rem;
+}
+
+button:hover{
+    border: 2px solid white;
+    box-shadow: none;
+    background: none;
+    
+}
