@@ -249,20 +249,18 @@ nav{
 
 .bloco_ch{
     margin-top: 50px;
-    margin-right: 120px;
+    margin-right: 80px;
     color: white;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 20px;
     background:rgb(100, 53, 145);
     box-shadow: 2px 2px 20px rgba(239, 233, 243, 0.705) ;
-    width: 10vw;
-    height: 18vh;
+    width: 250px;
+    height: 180px;
     border-radius: 8px;
-    transition: .2s ease-in-out;
-   
-    display: flex;
-    flex-wrap: nowrap;
-    
+    transition: .2s ease-in-out; 
+    display: flex; 
+    margin: 150px 20px 30px 40px;
 }
 
 .bloco_ch img{
